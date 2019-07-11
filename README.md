@@ -1,2 +1,2 @@
-# node-floppy-disc
+# node-floppy-disk
 💾 Centralized File System for Node.js
