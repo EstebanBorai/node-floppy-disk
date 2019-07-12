@@ -1,0 +1,22 @@
+{
+  "name": "floppy-disk",
+  "version": "0.1.0",
+  "description": "Centralized file system management for Node.js",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebanborai/node-floppy-disk.git"
+  },
+  "author": "Esteban Borai <estebanborai@outlook.com> (https://github.com/estebanborai)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estebanborai/node-floppy-disk/issues"
+  },
+  "homepage": "https://github.com/estebanborai/node-floppy-disk#readme"
+}
