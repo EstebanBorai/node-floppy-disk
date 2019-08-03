@@ -1,6 +1,6 @@
 {
-  "name": "floppy-disk",
-  "version": "0.1.0",
+  "name": "node-floppy-disk",
+  "version": "0.1.0-beta+190803",
   "description": "Centralized file system management for Node.js",
   "main": "dist/index.js",
   "directories": {
