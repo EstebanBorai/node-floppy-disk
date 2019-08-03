@@ -5,7 +5,7 @@
 
 ## Motivation
 Make use of a layer above NodeJS's `fs` module which makes easier to create, read, delete and update files.
-This module is itented to use with :electron: (Electron) applications but its API is isolated from Electron's API.
+This module is intended to use with :electron: (Electron) applications but its API is isolated from Electron's API.
 
 ## Installation
 ```bash

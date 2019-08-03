@@ -1,12 +1,13 @@
 {
   "name": "node-floppy-disk",
-  "version": "0.1.0-beta+190803",
+  "version": "0.1.0",
   "description": "Centralized file system management for Node.js",
   "main": "dist/index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
+		"build": "rollup --config",
     "test": "test"
   },
   "repository": {
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/estebanborai/node-floppy-disk/issues"
   },
-  "homepage": "https://github.com/estebanborai/node-floppy-disk#readme"
+  "homepage": "https://github.com/estebanborai/node-floppy-disk#readme",
+  "devDependencies": {
+    "rollup": "^1.18.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.3"
+  }
 }
