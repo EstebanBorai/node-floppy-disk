@@ -7,8 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-		"build": "rollup --config",
-    "test": "test"
+    "build": "rollup --config",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,14 @@
   },
   "homepage": "https://github.com/estebanborai/node-floppy-disk#readme",
   "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/rimraf": "^2.0.3",
+    "jest": "^24.9.0",
+    "rimraf": "^3.0.0",
     "rollup": "^1.18.0",
     "rollup-plugin-typescript": "^1.0.1",
+    "ts-jest": "^24.1.0",
     "tslib": "^1.10.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.7.2"
   }
 }
