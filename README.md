@@ -1,8 +1,6 @@
 # node-floppy-disk
 💾 Centralized file system management for Node.js
 
-> ⚠️ WARNING! This is a work in progress, some changes still experimental and features are in testing stage. Any Issue, PR and other enhancement is welcome.
-
 ## Motivation
 Make use of a layer above NodeJS's `fs` module which makes easier to create, read, delete and update files.
 This module is intended to use with :electron: (Electron) applications but its API is isolated from Electron's API.
@@ -17,6 +15,8 @@ npm i node-floppy-disk
 
 Under the hood `node-floppy-disk` uses `fs` in order to manage filesystem operations.
 
+[Read the API Documentation](https://github.com/estebanborai/node-floppy-disk/blob/master/docs/Api.md#api)
+
 ### Creating a Repository
 A repository is the name given to a directory where all your application files are stored. You will want to
 create a repository to manage your application files.
@@ -30,12 +30,12 @@ const options = {
 	name: 'My New Application',
 	initialFiles: [
 		{
-				fileName: 'settings.json',
-				subDirectory?: '',
-				contents: {
-					username: 'myusername',
-					theme: 'dark'
-				}
+			fileName: 'settings.json',
+			subDirectory?: '',
+			contents: {
+				username: 'myusername',
+				theme: 'dark'
+			}
 		}
 	],
 	debug: false

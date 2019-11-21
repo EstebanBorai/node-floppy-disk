@@ -1,5 +1,5 @@
 # API
-- [init]()
+- [init](https://github.com/estebanborai/node-floppy-disk/blob/master/docs/Api.md#initrepopath-string-config-initconfig-afterinit-function-promise)
 
 ## init(repoPath: string, config?: InitConfig, afterInit?: Function): Promise<InitResults>
 Initializes a new repository.
